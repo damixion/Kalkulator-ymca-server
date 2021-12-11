@@ -45,11 +45,6 @@ public class MeasurementService {
           return listEqualMeasurement;
     }
 
-    @EventListener(ApplicationReadyEvent.class)
-    public void addProductForDb()
-    {
-
-    }
 }
 
 
